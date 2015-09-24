@@ -6,17 +6,59 @@ img {
   max-width: 100%
 }
 
+a {
+  text-decoration: none;
+}
+
 .octocat {
   width: 300px;
   display: inline-block;
   margin-right: 10px;
-
+  border-bottom: 1px solid grey;
+  padding-bottom: 5px;
 }
 
 .octocat img {
   border: 1px solid grey;
 }
 
+.image-footer {
+  padding: 10px 0;
+  position: relative;
+
+}
+
+.image-footer:before {
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 10px 8.5px 0 8.5px;
+border-color: #c9cdd1 transparent transparent transparent;
+content: "";
+position: absolute;
+top: -4px;
+right: 0;
+}
+
+.image-number {
+  float: left;
+  margin-top: 7px;
+}
+
+.image-number:before {
+  content: "#";
+
+}
+.image-caption {
+  float: right;
+
+}
+
+.authors {
+  display: inline-block;
+  vertical-align: middle;
+
+}
 .authors img{
   width: 25px
 }
