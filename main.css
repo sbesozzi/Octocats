@@ -1,0 +1,22 @@
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%
+}
+
+.octocat {
+  width: 300px;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+.octocat img {
+  border: 1px solid grey;
+}
+
+.authors img{
+  width: 25px
+}
